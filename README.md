@@ -19,6 +19,10 @@ docker run --rm -it weather-cli <city-name>
 # Output
 
 ```bash
+docker run --rm -it weather-cli Pari
+```
+
+```bash
 🔍 Initializing city name analysis...
 
 Did you mean parit instead?
