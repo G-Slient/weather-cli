@@ -18,7 +18,7 @@ def spell_check(city_name):
         # print(matches)
         if len(matches) > 0:
             for match in matches:
-                print("\nDid you mean %s instead?" % match)
+                print("\nDid you mean %s instead?" % match.capitalize())
                 decide = input("\nPress y for yes or n for no: ")
                 if decide == "y":
                     return match
