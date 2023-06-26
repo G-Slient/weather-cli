@@ -23,15 +23,13 @@ def get_weather(city_name):
         data = json.loads(response.text)
 
         if response.status_code == 200:
-            weather_data = {"city_name": city_name,
-                            "temperature": f"{kelvin_to_celsius(data['main']['temp'])}°C",
-                            "description": f"{data['weather'][0]['description']}"
-                           }
-            
-            
+            weather_data = {
+                "city_name": city_name,
+                "temperature": f"{kelvin_to_celsius(data['main']['temp'])}°C",
+                "description": f"{data['weather'][0]['description']}"
+            }
+            return weather_data
         else:
             print(f"Error: {data['message']}")
     except requests.exceptions.RequestException as e:
         print(f"Error: {str(e)}")
-        
-    return weather_data

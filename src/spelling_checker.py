@@ -1,6 +1,6 @@
 import difflib
 import json
-import sys
+
 
 def auto_correct_city_name(city_name, city_list, n=3):
     matches = difflib.get_close_matches(city_name, city_list, n=n)
