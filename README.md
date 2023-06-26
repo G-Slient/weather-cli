@@ -2,7 +2,7 @@
 
 Command line tool powered by python code written with the help of comment driven develpoment backed by GitHub Copilot.
 
-# Inspiration <img src="inspiration.png" alt="Inspiration" width="30"/>
+# Inspiration <img src="icons/inspiration.png" alt="Inspiration" width="30"/>
 
 ![CodeGladiators23](icons/cg.png)
 
@@ -53,7 +53,7 @@ Press y for yes or n for no: y
 
 # Architecture <img src="icons/arch-icon.png" alt="Architecture" width="30"/>
 
-<img src="arch.png" alt="WeatherTool Architecture"/>
+<img src="icons/arch.png" alt="WeatherTool Architecture"/>
 
 # Team <img src="icons/team.png" alt="Team" width="30"/>
 
