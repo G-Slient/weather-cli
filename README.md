@@ -1,8 +1,8 @@
-# weather-cli <img src="icons/icon.png" alt="WeatherTool" width="30"/>
+# weather-cli <img src="icons/icon.png" alt="WeatherTool" width="45"/>
 
 Command line tool powered by python code written with the help of comment driven develpoment backed by GitHub Copilot.
 
-# Inspiration <img src="inspiration.png" alt="Inspiration" width="45"/>
+# Inspiration <img src="inspiration.png" alt="Inspiration" width="30"/>
 
 ![CodeGladiators23](icons/cg.png)
 
