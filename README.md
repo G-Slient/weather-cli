@@ -1,4 +1,4 @@
-# weather-cli <img src="icons/icon.png" alt="WeatherTool" width="30"/>
+# weather-cli <img src="icons/icon.png" alt="WeatherTool" width="45"/>
 
 Command line tool powered by python code written with the help of comment driven develpoment backed by GitHub Copilot.
 
